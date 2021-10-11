@@ -13,12 +13,14 @@ Per l'installazione si procede con il comando da terminale per youtube-dl: `pip 
 # Program
 Il programma scarica canzoni presenti su Spotify attraverso Youtube mantenendo i dati di Spotify (ad esempio: data di uscita, album, genere, ecc.).
 
-Le canzoni devono essere passate in input nel file [`link.txt`](.\bin\link.txt) (anche più di uno inserendoli nel file uno sotto l'altro) o come link da Spotify (`Tasto destro > Condividi > Copia link brano`) oppure scrivendo il nome della canzone (questo ultimo metodo risulta impreciso in alcuni casi)
+Le canzoni devono essere passate in input nel file [`link.txt`](.\bin\link.txt) (anche più di uno inserendoli nel file uno sotto l'altro) o come link da Spotify (`Tasto destro > Condividi > Copia link brano`) oppure scrivendo il nome della canzone (questo ultimo metodo risulta impreciso in alcuni casi).
+Oppure da prompt dei comandi (cmd) passando il link come ultimo parametro.
+Se il file di input è vuoto quando si esegue il programma viene chiesto il link, basta incollarlo e confermare con "Invio"
 
 Tramite link è possibile scaricare anche album e playlist solamente se pubbliche.
 Per rendere pubblica una playlist aprire il menù della playlist -> Aggiungi al profilo
 
-Le canzoni verranno poi salvate nella cartella [`.\bin\dl`](.\bin\dl) assieme ad dei file cache che potranno essere elimiati
+Le canzoni verranno poi salvate nella cartella [`.\bin\dl`](.\bin\dl) assieme a dei file cache che potranno essere elimiati
 
 ## Problems
 Se si riscontrano problemi con le librerie youtube-dl e/o spotdl probabilmente bisogna aggiornarle con il comando: `pip install --upgrade youtube_dl` e `pip install --upgrade spotdl` oppure eseguendo il file [setup.bat](\setup.bat).
