@@ -20,6 +20,9 @@ def main():
     destination = ".\\dl\\"
     f_in = ".\\link.txt"
 
+    if str(os.path.exists(destination)) == "False":
+        os.mkdir(destination)
+
     if len(sys.argv) >= 2:
         os.system(f"cd {destination} && spotdl {sys.argv[-1]}")
     else:
