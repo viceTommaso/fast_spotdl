@@ -20,7 +20,7 @@ Se il file di input è vuoto quando si esegue il programma viene chiesto il link
 Tramite link è possibile scaricare anche album e playlist solamente se pubbliche.
 Per rendere pubblica una playlist aprire il menù della playlist -> Aggiungi al profilo
 
-Le canzoni verranno poi salvate nella cartella [`.\bin\dl`](.\bin\dl) assieme a dei file cache che potranno essere elimiati
+Le canzoni verranno poi salvate nella cartella [`.\bin\dl`](.\bin\dl) assieme a dei file cache che potranno essere eliminati
 
 ## Problems
 Se si riscontrano problemi con le librerie youtube-dl e/o spotdl probabilmente bisogna aggiornarle con il comando: `pip install --upgrade youtube_dl` e `pip install --upgrade spotdl` oppure eseguendo il file [setup.bat](\setup.bat).
