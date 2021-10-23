@@ -6,17 +6,11 @@ import shutil
 import sys
 
 
-boold = False
-
-
 def main():
     """
     main
     :return: 0
     """
-    if boold:
-        print("start")
-
     destination = ".\\dl\\"
     f_in = ".\\link.txt"
 
@@ -33,9 +27,6 @@ def main():
         else:
             link_in = input("\nLink brano/album/playlist:   ")
             os.system(f"cd {destination} && spotdl {link_in}")
-
-    if boold:
-        print("end")
     return 0
 
 
