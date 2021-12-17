@@ -11,7 +11,7 @@ spotdl, youtube-dl
 Per l'installazione si procede con il comando da terminale per youtube-dl: `pip install youtube-dl`, mentre per spotdl: `pip install spotdl` oppure eseguendo il file [setup.bat](\setup.bat).
 
 ## Program
-Il programma scarica canzoni presenti su Spotify attraverso Youtube mantenendo i dati di Spotify (ad esempio: data di uscita, album, genere, ecc.).
+Il programma grazie alla libreria [`spotdl`](https://github.com/spotDL/spotify-downloader) scarica canzoni presenti su Spotify attraverso Youtube mantenendo i dati di Spotify (ad esempio: data di uscita, album, genere, ecc.).
 
 Le canzoni devono essere passate in input nel file [`link.txt`](.\bin\link.txt) (anche più di uno inserendoli nel file uno sotto l'altro) o come link da Spotify (`Tasto destro > Condividi > Copia link brano`) oppure scrivendo il nome della canzone (questo ultimo metodo risulta impreciso in alcuni casi).
 Oppure da prompt dei comandi (cmd) passando il link come ultimo parametro.
