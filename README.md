@@ -5,7 +5,7 @@
 windows, python 3
 
 ## Library
-spotdl, youtube-dl
+[spotdl](https://github.com/spotDL/spotify-downloader), [youtube-dl](https://github.com/ytdl-org/youtube-dl)
 
 ## Installation
 Per l'installazione si procede con il comando da terminale per youtube-dl: `pip install youtube-dl`, mentre per spotdl: `pip install spotdl` oppure eseguendo il file [setup.bat](\setup.bat).
