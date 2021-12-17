@@ -24,6 +24,7 @@ Le canzoni verranno poi salvate nella cartella [`.\bin\dl`](.\bin\dl) assieme a 
 
 ## Problems
 Se si riscontrano problemi con le librerie youtube-dl e/o spotdl probabilmente bisogna aggiornarle con il comando: `pip install --upgrade youtube_dl` e `pip install --upgrade spotdl` oppure eseguendo il file [setup.bat](\setup.bat).
+Se dopo questo il programma continua a non funzionare usare il comando: `pip install -U --force-reinstall spotdl` oppure eseguendo il file [reinstall.bat](\reinstall.bat).
 
 ## License
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
