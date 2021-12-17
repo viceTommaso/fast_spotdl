@@ -2,7 +2,7 @@
 
 
 ## Prerequisites
-windows, python 3
+windows, [python 3](https://www.python.org/downloads/)
 
 ## Library
 [spotdl](https://github.com/spotDL/spotify-downloader), [youtube-dl](https://github.com/ytdl-org/youtube-dl)
