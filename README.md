@@ -28,6 +28,7 @@ Per altri problemi provate questi metodi:
 - Se non funziona fin da subito provate ad installare Python con la spunta su `Add Python to PATH`
 - Provate ad installare Visual C++ 2019 redistributable: https://docs.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist
 - Usare il comando: `pip install -U --force-reinstall spotdl`
+- Chiedere supporto sul canale discord del produttore: https://discord.com/invite/xCa23pwJWY
 
 ## License
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
